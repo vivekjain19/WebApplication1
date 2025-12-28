@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>AI Agent</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+    <div class="app">
+        <header>
+            <h2>AI Agent</h2>
+            <button id="toggleDebug">Debug</button>
+        </header>
+
+        <main class="content">
+            <div id="chat" class="chat"></div>
+
+            <aside id="debugPanel" class="debug hidden">
+                <pre id="debugLog"></pre>
+            </aside>
+        </main>
+
+        <footer>
+            <input id="input" placeholder="Message AI Agent…" autocomplete="off" />
+            <button id="send">Send</button>
+            <button id="stop">Stop</button>
+        </footer>
+    </div>
+
+    <script src="/app.js" defer></script>
+</body>
+</html>
