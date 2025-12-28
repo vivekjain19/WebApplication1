@@ -26,7 +26,7 @@ builder.Services.AddSingleton(sp =>
 
     kb.AddOpenAIChatCompletion(
     modelId: "meta-llama/llama-3.1-8b-instruct",
-    apiKey: "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",
+    apiKey: "sk-or-v1-key",
     endpoint: new Uri("https://openrouter.ai/api/v1")
 );
     var kernel = kb.Build();
